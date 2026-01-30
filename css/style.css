@@ -434,3 +434,92 @@ body {
 #autoReg:checked ~ .register_block {
   display: block;
 }
+
+
+/* ===== MODERATOR ===== */
+
+.moderator {
+  padding: 4rem 0;
+}
+
+.moderator_title {
+  margin-bottom: 2rem;
+}
+
+.moderator_filters {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.moderator_filters select {
+  padding: 0.5rem;
+}
+
+.moderator_list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.moderator_card {
+  display: flex;
+  gap: 1.5rem;
+  background: #f5f5f5;
+  padding: 1.5rem;
+  border-radius: 1rem;
+}
+
+.moderator_card img {
+  width: 8rem;
+  height: 8rem;
+  object-fit: cover;
+  border-radius: 0.75rem;
+}
+
+.moderator_info {
+  flex: 1;
+  font-size: 0.875rem;
+}
+
+.moderator_actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: flex-start;
+}
+
+.status_label {
+  font-size: 0.75rem;
+  padding: 0.25rem 0.75rem;
+  border-radius: 1rem;
+  background: #e5e7eb;
+}
+
+/* статусы */
+.status_moderation {
+  border-left: 6px solid #f59e0b;
+}
+
+.status_active {
+  border-left: 6px solid #3b82f6;
+}
+
+
+@media (max-width: 768px) {
+
+  .moderator_card {
+    flex-direction: column;
+  }
+
+  .moderator_card img {
+    width: 100%;
+    height: 12rem;
+  }
+
+  .moderator_actions {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+}

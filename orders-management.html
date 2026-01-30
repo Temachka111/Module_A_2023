@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Модерация объявлений | Новая жизнь</title>
+</head>
+<body>
+
+<header class="header">
+    <div class="container header_inner">
+        <div class="logo">Новая жизнь</div>
+
+        <nav class="nav">
+            <a href="index.html">Главная</a>
+            <a href="orders-management.html">Модерация</a>
+        </nav>
+
+        <div class="header_actions">
+            <a href="index.html" class="btn">Выход</a>
+        </div>
+    </div>
+</header>
+
+<main class="main">
+    <section class="moderator">
+        <div class="container">
+
+            <h1 class="moderator_title">Управление объявлениями</h1>
+
+            <!-- фильтры -->
+            <div class="moderator_filters">
+                <select>
+                    <option>Сортировка по дате</option>
+                    <option>Сначала новые</option>
+                    <option>Сначала старые</option>
+                </select>
+
+                <select>
+                    <option>Все статусы</option>
+                    <option>На модерации</option>
+                    <option>Активно</option>
+                    <option>Найдено</option>
+                    <option>В архиве</option>
+                </select>
+            </div>
+
+            <!-- объявления -->
+            <div class="moderator_list">
+
+                <article class="moderator_card status_moderation">
+                    <img src="images/pets/black-cat-bokeh-road-photography.jpeg" alt="">
+
+                    <div class="moderator_info">
+                        <p><strong>Вид:</strong> Кот</p>
+                        <p><strong>Район:</strong> Центральный</p>
+                        <p><strong>Дата:</strong> 15.01.2026</p>
+                        <p><strong>Контакты:</strong> +7 (900) 000-00-00</p>
+                        <p><strong>Email:</strong> user@mail.ru</p>
+                        <p><strong>Описание:</strong> Найден во дворе дома</p>
+                        <p><strong>Клеймо:</strong> нет</p>
+                    </div>
+
+                    <div class="moderator_actions">
+                        <span class="status_label">На модерации</span>
+                        <button class="btn btn_small">Активно</button>
+                        <button class="btn btn_small">Найдено</button>
+                        <button class="btn btn_danger btn_small">В архив</button>
+                    </div>
+                </article>
+
+                <article class="moderator_card status_active">
+                    <img src="images/pets/1639013206_5-sobakovod-club-p-sobaki-naiti-sobaku-po-5.jpg" alt="">
+
+                    <div class="moderator_info">
+                        <p><strong>Вид:</strong> Собака</p>
+                        <p><strong>Район:</strong> Ленинский</p>
+                        <p><strong>Дата:</strong> 10.01.2026</p>
+                        <p><strong>Контакты:</strong> +7 (900) 111-11-11</p>
+                        <p><strong>Email:</strong> dog@mail.ru</p>
+                        <p><strong>Описание:</strong> С ошейником</p>
+                        <p><strong>Клеймо:</strong> есть</p>
+                    </div>
+
+                    <div class="moderator_actions">
+                        <span class="status_label">Активно</span>
+                        <button class="btn btn_small">Найдено</button>
+                        <button class="btn btn_danger btn_small">В архив</button>
+                    </div>
+                </article>
+
+            </div>
+
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <p>8 (900) 000-00-00</p>
+        <p>mail@gmail.com</p>
+    </div>
+</footer>
+
+</body>
+</html>
