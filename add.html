@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Добавить животное | Новая жизнь</title>
+</head>
+<body>
+
+<header class="header">
+    <div class="container header_inner">
+        <div class="logo">Новая жизнь</div>
+
+        <nav class="nav">
+            <a href="index.html">Главная</a>
+            <a href="search.html">Поиск</a>
+            <a href="profile.html">Профиль</a>
+        </nav>
+    </div>
+</header>
+
+<main class="main">
+    <section class="add">
+        <div class="container add_container">
+
+            <h1 class="add_title">Добавить найденное животное</h1>
+
+            <form class="add_form">
+
+                <div class="form_group">
+                    <label>Телефон *</label>
+                    <input type="tel" placeholder="+7 (900) 000-00-00" required>
+                </div>
+
+                <div class="form_group">
+                    <label>Email *</label>
+                    <input type="email" placeholder="mail@example.com" required>
+                </div>
+
+                <!-- регистрация -->
+                <div class="form_checkbox">
+                    <input type="checkbox" id="autoReg">
+                    <label for="autoReg">Создать профиль автоматически</label>
+                </div>
+
+                <!-- блок пароля -->
+                <div class="register_block">
+                    <div class="form_group">
+                        <label>Пароль *</label>
+                        <input type="password">
+                    </div>
+
+                    <div class="form_group">
+                        <label>Повтор пароля *</label>
+                        <input type="password">
+                    </div>
+                </div>
+
+                <div class="form_group">
+                    <label>Вид животного *</label>
+                    <input type="text" placeholder="Кошка, собака..." required>
+                </div>
+
+                <div class="form_group">
+                    <label>Фотографии (до 3)</label>
+                    <input type="file" multiple>
+                </div>
+
+                <div class="form_group">
+                    <label>Дополнительная информация</label>
+                    <textarea rows="4"
+                        placeholder="Описание, порода, обстоятельства..."></textarea>
+                </div>
+
+                <div class="form_group">
+                    <label>Клеймо</label>
+                    <input type="text" placeholder="Если есть">
+                </div>
+
+                <div class="form_group">
+                    <label>Район *</label>
+                    <input type="text" required>
+                </div>
+
+                <div class="form_group">
+                    <label>Дата находки *</label>
+                    <input type="date" required>
+                </div>
+
+                <!-- ошибка -->
+                <p class="form_error">
+                    Заполните все обязательные поля
+                </p>
+
+                <div class="form_checkbox">
+                    <input type="checkbox" id="agree" required>
+                    <label for="agree">
+                        Согласен(на) на обработку персональных данных
+                    </label>
+                </div>
+
+                <button type="submit" class="btn auth_btn">
+                    Добавить объявление
+                </button>
+
+            </form>
+
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <p>8 (900) 000-00-00</p>
+        <p>mail@gmail.com</p>
+    </div>
+</footer>
+
+</body>
+</html>
