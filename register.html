@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Регистрация | Новая жизнь</title>
+</head>
+<body>
+
+<header class="header">
+    <div class="container header_inner">
+        <div class="logo">Новая жизнь</div>
+
+        <nav class="nav">
+            <a href="index.html">Главная</a>
+            <a href="search.html">Поиск</a>
+            <a href="add.html">Добавить</a>
+        </nav>
+    </div>
+</header>
+
+<main class="main">
+    <section class="auth">
+        <div class="container auth_container">
+
+            <h1 class="auth_title">Регистрация</h1>
+
+            <form class="auth_form">
+
+                <div class="form_group">
+                    <label>Email *</label>
+                    <input type="email" placeholder="mail@example.com" required>
+                </div>
+
+                <div class="form_group">
+                    <label>Имя *</label>
+                    <input type="text" placeholder="Иван" required>
+                </div>
+
+                <div class="form_group">
+                    <label>Фамилия *</label>
+                    <input type="text" placeholder="Иванов" required>
+                </div>
+
+                <div class="form_group">
+                    <label>Телефон *</label>
+                    <input type="tel" placeholder="+7 (900) 000-00-00" required>
+                </div>
+
+                <div class="form_group">
+                    <label>Пароль *</label>
+                    <input type="password" placeholder="Введите пароль" required>
+                </div>
+
+                <div class="form_group">
+                    <label>Повтор пароля *</label>
+                    <input type="password" placeholder="Повторите пароль" required>
+                </div>
+
+                <!-- пример ошибки -->
+                <p class="form_error">
+                    Пароли не совпадают или заполнены не все обязательные поля
+                </p>
+
+                <div class="form_checkbox">
+                    <input type="checkbox" id="agree" required>
+                    <label for="agree">
+                        Я согласен(на) на обработку персональных данных
+                    </label>
+                </div>
+
+                <button type="submit" class="btn auth_btn">
+                    Зарегистрироваться
+                </button>
+
+            </form>
+
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <p>8 (900) 000-00-00</p>
+        <p>mail@gmail.com</p>
+    </div>
+</footer>
+
+</body>
+</html>
