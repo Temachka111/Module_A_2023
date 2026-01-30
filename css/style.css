@@ -185,3 +185,62 @@ body {
 
 }
 
+/* ===== AUTH ===== */
+
+.auth {
+  padding: 4rem 0;
+}
+
+.auth_container {
+  max-width: 26rem;
+}
+
+.auth_title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.auth_form {
+  background-color: #f5f5f5;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.form_group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.form_group label {
+  font-size: 0.875rem;
+  margin-bottom: 0.25rem;
+}
+
+.form_group input {
+  padding: 0.75rem;
+}
+
+.form_error {
+  color: #b91c1c;
+  font-size: 0.875rem;
+  margin-bottom: 1rem;
+}
+
+.auth_btn {
+  width: 100%;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+.auth_btn:hover {
+  background-color: #3b54d1;
+  transform: translateY(-3px);
+}
+
+.auth_link {
+  display: block;
+  text-align: center;
+  font-size: 0.875rem;
+  color: #4a6cff;
+  text-decoration: none;
+}
