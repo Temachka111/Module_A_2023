@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Личный кабинет | Новая жизнь</title>
+</head>
+<body>
+
+<header class="header">
+    <div class="container header_inner">
+        <div class="logo">Новая жизнь</div>
+
+        <nav class="nav">
+            <a href="index.html">Главная</a>
+            <a href="search.html">Поиск</a>
+            <a href="add.html">Добавить</a>
+            <a href="profile.html">Профиль</a>
+        </nav>
+
+        <div class="header_actions">
+            <a href="index.html" class="btn">Выход</a>
+        </div>
+    </div>
+</header>
+
+<main class="main">
+    <section class="profile">
+        <div class="container">
+
+            <h1 class="profile_title">Личный кабинет</h1>
+
+            <!-- Информация о пользователе -->
+            <div class="profile_info">
+
+                <div class="profile_info-row">
+                    <span class="profile_label">Email:</span>
+                    <span class="profile_value">user@mail.ru</span>
+                    <button class="link-btn">Изменить</button>
+                </div>
+
+                <div class="profile_info-row">
+                    <span class="profile_label">Телефон:</span>
+                    <span class="profile_value">+7 (900) 000-00-00</span>
+                    <button class="link-btn">Изменить</button>
+                </div>
+
+                <div class="profile_info-row">
+                    <span class="profile_label">Объявлений:</span>
+                    <span class="profile_value">8</span>
+                </div>
+
+                <div class="profile_info-row">
+                    <span class="profile_label">Найдено хозяев:</span>
+                    <span class="profile_value">3</span>
+                </div>
+
+                <div class="profile_info-row">
+                    <span class="profile_label">Дата регистрации:</span>
+                    <span class="profile_value">12.03.2024</span>
+                </div>
+
+                <div class="profile_info-row">
+                    <span class="profile_label">Дней на сайте:</span>
+                    <span class="profile_value">320</span>
+                </div>
+
+            </div>
+
+
+            <!-- Объявления пользователя -->
+            <div class="profile_ads">
+
+                <!-- Активные -->
+                <div class="ads_group ads_active">
+                    <h2>Активные объявления</h2>
+
+                    <article class="ads_card">
+                        <img src="images/pets/black-cat-bokeh-road-photography.jpeg" alt="">
+                        <div>
+                            <p><strong>Район:</strong> Центральный</p>
+                            <p><strong>Дата:</strong> 10.01.2026</p>
+                            <p>Черный кот, найден во дворе</p>
+                            <p><strong>Клеймо:</strong> нет</p>
+                        </div>
+                        <div class="ads_actions">
+                            <button class="btn btn_small">Редактировать</button>
+                            <button class="btn btn_danger btn_small">Удалить</button>
+                        </div>
+                    </article>
+
+                    <article class="ads_card">
+                        <img src="images/pets/black-cat-bokeh-road-photography.jpeg" alt="">
+                        <div>
+                            <p><strong>Район:</strong> Ленинский</p>
+                            <p><strong>Дата:</strong> 08.01.2026</p>
+                            <p>Кот с ошейником</p>
+                            <p><strong>Клеймо:</strong> есть</p>
+                        </div>
+                        <div class="ads_actions">
+                            <button class="btn btn_small">Редактировать</button>
+                            <button class="btn btn_danger btn_small">Удалить</button>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- На модерации -->
+                <div class="ads_group ads_moderation">
+                    <h2>На модерации</h2>
+
+                    <article class="ads_card">
+                        <img src="images/pets/black-cat-bokeh-road-photography.jpeg" alt="">
+                        <div>
+                            <p><strong>Район:</strong> Промышленный</p>
+                            <p><strong>Дата:</strong> 05.01.2026</p>
+                            <p>Собака, похожа на овчарку</p>
+                        </div>
+                        <div class="ads_actions">
+                            <button class="btn btn_small">Редактировать</button>
+                            <button class="btn btn_danger btn_small">Удалить</button>
+                        </div>
+                    </article>
+
+                    <article class="ads_card">
+                        <img src="images/pets/black-cat-bokeh-road-photography.jpeg" alt="">
+                        <div>
+                            <p><strong>Район:</strong> Дзержинский</p>
+                            <p><strong>Дата:</strong> 03.01.2026</p>
+                            <p>Белый кот</p>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- Найдено -->
+                <div class="ads_group ads_found">
+                    <h2>Найдено</h2>
+
+                    <article class="ads_card">
+                        <img src="images/pets/black-cat-bokeh-road-photography.jpeg" alt="">
+                        <div>
+                            <p>Кот вернулся к хозяевам</p>
+                        </div>
+                    </article>
+
+                    <article class="ads_card">
+                        <img src="images/pets/black-cat-bokeh-road-photography.jpeg" alt="">
+                        <div>
+                            <p>Собака передана владельцу</p>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- Архив -->
+                <div class="ads_group ads_archive">
+                    <h2>В архиве</h2>
+
+                    <article class="ads_card">
+                        <img src="images/pets/black-cat-bokeh-road-photography.jpeg" alt="">
+                        <div>
+                            <p>Объявление снято</p>
+                        </div>
+                    </article>
+
+                    <article class="ads_card">
+                        <img src="images/pets/black-cat-bokeh-road-photography.jpeg" alt="">
+                        <div>
+                            <p>Устаревшее объявление</p>
+                        </div>
+                    </article>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <p>8 (900) 000-00-00</p>
+        <p>mail@gmail.com</p>
+    </div>
+</footer>
+
+</body>
+</html>

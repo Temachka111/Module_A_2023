@@ -255,3 +255,114 @@ body {
 .form_checkbox input {
   margin-top: 0.2rem;
 }
+
+/* ===== PROFILE ===== */
+
+.profile {
+  padding: 4rem 0;
+}
+
+.profile_title {
+  margin-bottom: 2rem;
+}
+
+.profile_info {
+  background: #f5f5f5;
+  padding: 2rem;
+  border-radius: 1rem;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.profile_info-row {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 1rem;
+}
+
+.profile_label {
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.profile_value {
+  color: #333;
+}
+
+.link-btn {
+  background: none;
+  border: none;
+  color: #4a6cff;
+  cursor: pointer;
+  padding: 0;
+}
+
+
+.profile_stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.profile_ads {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.ads_group {
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.ads_active {
+  background-color: #e0f2fe;
+}
+
+.ads_moderation {
+  background-color: #fef3c7;
+}
+
+.ads_found {
+  background-color: #dcfce7;
+}
+
+.ads_archive {
+  background-color: #e5e7eb;
+}
+
+.ads_card {
+  display: flex;
+  gap: 1rem;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.ads_card img {
+  width: 6rem;
+  height: 6rem;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+.ads_actions {
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.btn_small {
+  padding: 0.25rem 0.75rem;
+  font-size: 0.75rem;
+}
+
+.btn_danger {
+  background-color: #ef4444;
+}
