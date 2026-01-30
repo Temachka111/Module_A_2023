@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Поиск животных | Новая жизнь</title>
+</head>
+<body>
+
+<header class="header">
+    <div class="container header_inner">
+        <div class="logo">Новая жизнь</div>
+
+        <nav class="nav">
+            <a href="index.html">Главная</a>
+            <a href="add.html">Добавить</a>
+            <a href="profile.html">Профиль</a>
+        </nav>
+    </div>
+</header>
+
+<main class="main">
+    <section class="search">
+        <div class="container">
+
+            <h1 class="search_title">Поиск найденных животных</h1>
+
+            <!-- форма поиска -->
+            <form class="search_form">
+
+                <input type="text" placeholder="Район">
+
+                <select>
+                    <option>Вид животного</option>
+                    <option>Кошка</option>
+                    <option>Собака</option>
+                    <option>Другое</option>
+                </select>
+
+                <input type="text" placeholder="Поиск по описанию">
+
+                <button type="submit" class="btn">
+                    Найти
+                </button>
+
+            </form>
+
+            <!-- таблица -->
+            <div class="search_results">
+
+                <table class="results_table">
+                    <thead>
+                        <tr>
+                            <th>Вид</th>
+                            <th>Фото</th>
+                            <th>Описание</th>
+                            <th>Клеймо</th>
+                            <th>Район</th>
+                            <th>Дата</th>
+                            <th>Телефон</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Кот</td>
+                            <td>
+                                <img src="images/pets/black-cat-bokeh-road-photography.jpeg" alt="">
+                            </td>
+                            <td>Найден во дворе</td>
+                            <td>нет</td>
+                            <td>Центральный</td>
+                            <td>12.01.2026</td>
+                            <td>+7 (900) 000-00-00</td>
+                        </tr>
+
+                        <tr>
+                            <td>Собака</td>
+                            <td>
+                                <img src="images/pets/1639013206_5-sobakovod-club-p-sobaki-naiti-sobaku-po-5.jpg" alt="">
+                            </td>
+                            <td>С ошейником</td>
+                            <td>есть</td>
+                            <td>Ленинский</td>
+                            <td>10.01.2026</td>
+                            <td>+7 (900) 111-11-11</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+
+            <!-- пагинация -->
+            <div class="pagination">
+                <a href="#">«</a>
+                <a href="#" class="active">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">»</a>
+            </div>
+
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <p>8 (900) 000-00-00</p>
+        <p>mail@gmail.com</p>
+    </div>
+</footer>
+
+</body>
+</html>
